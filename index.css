@@ -40,31 +40,13 @@ body {
     border-radius: 5px;
 }
 
+
 .clickable-link{
     text-decoration: none;
     color: black;
     font-size: 20px;
     font-weight: bold;
     transition: 0.5s;
-}
-
-.contact-me ul {
-    display: flex;
-    justify-content: space-between;
-    background-color: #F5F5F5;
-    padding: 20px 10px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.5s;
-    margin: 20px;
-}
-.clickable-contact , .email{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-    transition: 0.5s;
-
 }
 
 .about-me {
@@ -82,3 +64,25 @@ body {
     text-align: center;
     transition: 0.5s;
     margin: 20px;}
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding: 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;
+}
+.clickable-contact , .email{
+    flex: 1;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
