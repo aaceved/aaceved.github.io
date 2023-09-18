@@ -1,0 +1,56 @@
+
+
+body {
+    /*background-color: #839c7adb;*/
+    background-color: #839c7adb;
+}
+
+.homepage-header {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;
+}
+
+.my-projects {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;}
+.navbar li {    
+    
+    margin: 5px 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: none;
+    border-radius: 5px;
+}
+.about-me {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;}
+
+.contact-me {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;}
