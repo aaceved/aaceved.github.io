@@ -39,6 +39,14 @@ body {
     background-color: none;
     border-radius: 5px;
 }
+
+.clickable-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
 .about-me {
     background-color: #F5F5F5;
     padding: 20px;
