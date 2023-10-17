@@ -22,6 +22,26 @@ body {
     transition: 0.5s;
     margin: 20px;}
 
+    .skills-experience-container {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    }
+    
+    .skills,
+    .experience {
+        width: calc(50% - 10px); 
+        margin-right: 10px; 
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+    
+    
+    .skills-ul,
+    .experience-ul {
+        list-style: none;
+        padding: 0;
+    }
 .navbar ul{
     display: flex;
     justify-content: space-between;
@@ -84,6 +104,5 @@ body {
     font-size: 15px;
     font-weight: bold;
     transition: 0.5s;
-
 }
 
